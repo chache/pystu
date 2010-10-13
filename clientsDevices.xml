@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<sites>
+    <site name='Test One' host='testrs1' code='bwr'>
+        <device dhost='bwrtouch' desc='G310 touchscreen at AWCS' ip='192.168.100.226' port='80' />
+        <device dhost='bkinterm' desc='Digi ternimal server at Booked in' ip='192.168.100.224' port='80' />
+        <device dhost='localhost' desc='Server printer config' ip='localhost' port='631' />
+    </site>
+    <site name='Test Two' host='testrs1' code='cdg'>
+        <device dhost='awcstouch' desc='G310 touchscreen at AWCS' ip='192.168.105.226' port='80' />
+        <device dhost='localhost' desc='Server printer config' ip='localhost' port='631' />
+    </site>
+</sites>
